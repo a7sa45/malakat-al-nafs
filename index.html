@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173c3a">
+  <meta name="description" content="دليل عربي مبسّط لمَلَكة النفس: فهم المشاعر، والتمهّل أمام الاندفاع، واختيار التصرف الذي يعبّر عن قيمك.">
+  <meta property="og:title" content="مَلَكة النفس — مشاعرك مسموعة، وقرارك لك">
+  <meta property="og:description" content="أفكار وتطبيقات يومية لفهم مشاعرك دون الانصياع التلقائي لها.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <title>مَلَكة النفس — مشاعرك مسموعة، وقرارك لك</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23173c3a'/%3E%3Cpath d='M24 19v26m16-26v26' stroke='%23fff' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+  <style>
+    :root{color-scheme:light;--ink:#1b292a;--muted:#536362;--green:#173c3a;--accent:#096a60;--paper:#fff;--wash:#f3f6f5;--line:#dce4e1;--round:18px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:95px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;font-size:18px;line-height:1.9;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}button,summary,a{-webkit-tap-highlight-color:transparent}
+    a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:6px;border-radius:3px}
+    .skip{position:fixed;top:-100px;right:20px;z-index:10;background:var(--green);color:white;padding:8px 18px}
+    .skip:focus{top:10px}
+    .wrap{width:min(1080px,calc(100% - 64px));margin-inline:auto}
+    header{border-bottom:1px solid var(--line);background:#fffffff2;position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+    .header-inner{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{display:flex;align-items:center;gap:13px;font-size:22px;font-weight:750;white-space:nowrap}
+    .brand-mark{width:35px;height:35px;border:1px solid var(--green);border-radius:50%;display:flex;justify-content:center;align-items:center;gap:5px}
+    .brand-mark:before,.brand-mark:after{content:"";height:13px;width:3px;background:var(--green);border-radius:3px}
+    nav{display:flex;gap:28px;font-size:15px;color:var(--muted)}
+    nav a{padding-block:14px;border-bottom:2px solid transparent}nav a:hover{color:var(--accent);border-color:var(--accent)}
+    .intro{padding-block:68px 60px;display:grid;grid-template-columns:1.3fr 1fr;gap:70px;align-items:center}
+    .eyebrow{font-size:14px;color:var(--accent);margin:0 0 15px;font-weight:650;display:flex;align-items:center;gap:10px}
+    .eyebrow:before{content:"";width:25px;height:2px;background:currentColor}
+    h1,h2,h3,p{margin-top:0}h1{font-size:clamp(35px,4.3vw,55px);line-height:1.55;letter-spacing:-1.1px;margin-bottom:20px;font-weight:750}
+    h1 span{color:var(--accent)}.lead{color:var(--muted);max-width:570px;margin-bottom:25px}
+    .inline-link{display:inline-flex;align-items:center;gap:12px;color:var(--accent);font-weight:650;font-size:16px;border-bottom:1px solid #a7c8c1;padding-bottom:5px}
+    .inline-link span{font-size:21px}.anchor-card{background:var(--green);color:#fff;border-radius:var(--round);padding:35px 32px;position:relative}
+    .card-label{color:#c9e3db;font-size:14px;display:flex;align-items:center;gap:10px;margin-bottom:24px}
+    .card-label:before{content:"";width:7px;height:7px;border:1px solid currentColor;border-radius:50%}
+    .anchor-card blockquote{margin:0;font-size:26px;line-height:1.9;font-weight:600}
+    .card-foot{border-top:1px solid #ffffff30;margin:25px 0 0;padding-top:20px;color:#d7e7e2;font-size:16px}
+    .meaning{display:grid;grid-template-columns:220px 1fr;gap:45px;padding-block:35px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .section-kicker{font-size:14px;color:var(--accent);font-weight:650;margin:0 0 8px}.meaning h2{font-size:23px;margin:0}.meaning p{margin:0;color:var(--muted)}.meaning strong{color:var(--ink);font-weight:650}
+    section.content-section{padding-block:64px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:30px}
+    h2{font-size:31px;line-height:1.65;margin-bottom:0;font-weight:700;letter-spacing:-.3px}.section-heading>p{font-size:16px;color:var(--muted);max-width:330px;margin:0}
+    .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:0 34px}
+    .principle{padding-block:23px;border-top:1px solid var(--line)}
+    .number{font-size:14px;color:var(--accent);font-weight:600;margin-bottom:14px;display:block;font-variant-numeric:tabular-nums}
+    h3{font-size:21px;line-height:1.7;margin-bottom:10px}.principle p{font-size:17px;color:var(--muted);margin:0}
+    .practice-band{background:var(--wash);border-block:1px solid var(--line)}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin:30px 0 0;padding:0;list-style:none}
+    .step{border-inline-start:1px solid #bfcfc9;padding-inline-start:22px}.step .number{margin-bottom:12px}.step p{font-size:17px;color:var(--muted);margin-bottom:0}.step h3{font-size:23px;margin-bottom:6px}
+    .prompt{margin:35px 0 0;border-top:1px solid var(--line);padding-top:23px;font-size:19px;color:var(--green)}
+    .examples-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:65px}.examples-intro p{color:var(--muted);font-size:17px;margin-block:15px 0;max-width:350px}
+    details{border-bottom:1px solid var(--line)}details:first-child{border-top:1px solid var(--line)}
+    summary{cursor:pointer;list-style:none;padding:20px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:19px;font-weight:650}
+    summary::-webkit-details-marker{display:none}summary:after{content:"+";font-family:Arial,sans-serif;font-size:25px;color:var(--accent);font-weight:400;line-height:1;flex-shrink:0}
+    details[open] summary:after{content:"−"}.example-body{padding:0 0 23px;font-size:17px;color:var(--muted)}.example-body p{margin-bottom:12px}.example-body p:last-child{margin:0}.example-body strong{color:var(--green);font-weight:650}
+    .reminder{padding:38px 42px;border:1px solid var(--line);border-radius:var(--round);display:grid;grid-template-columns:1fr 1.1fr;gap:50px;align-items:center;margin-bottom:64px}
+    .reminder h2{font-size:28px}.reminder p{font-size:17px;color:var(--muted);margin:0}.reminder .section-kicker{font-size:14px;color:var(--accent);margin-bottom:8px}
+    .closing{background:var(--green);color:white;text-align:center;padding:45px 25px}.closing p{margin:0;font-size:25px;font-weight:600;line-height:1.8}.closing small{display:block;font-size:15px;color:#c9e3db;margin-top:9px}
+    footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:25px;padding-block:25px;color:var(--muted);font-size:14px}footer p{margin:0}footer a{color:var(--accent)}
+    @media(min-width:1500px){.intro{padding-block:85px 70px}}
+    @media(max-width:850px){.intro{gap:30px;grid-template-columns:1.2fr 1fr;padding-block:45px}.anchor-card{padding:26px}.anchor-card blockquote{font-size:22px}.principles{grid-template-columns:repeat(2,1fr)}.meaning{grid-template-columns:180px 1fr;gap:30px}.steps{grid-template-columns:repeat(2,1fr);gap:28px}.examples-grid{gap:35px;grid-template-columns:1fr 1.3fr}.reminder{gap:30px;padding:30px}}
+    @media(max-width:600px){body{font-size:17px}.wrap{width:calc(100% - 38px)}html{scroll-padding-top:119px}.header-inner{min-height:104px;align-items:stretch;justify-content:center;flex-direction:column;gap:2px;padding-top:13px}.brand{font-size:21px;gap:10px}.brand-mark{width:30px;height:30px}nav{gap:0;justify-content:space-between;font-size:14px}nav a{padding-block:8px}.intro{grid-template-columns:1fr;gap:28px;padding-block:35px}.eyebrow{font-size:14px;margin-bottom:10px}h1{font-size:38px;letter-spacing:-.6px;margin-bottom:14px}.lead{margin-bottom:18px}.anchor-card{padding:26px}.anchor-card blockquote{font-size:23px}.card-label{margin-bottom:16px}.card-foot{margin-top:17px;padding-top:15px}.meaning{grid-template-columns:1fr;gap:12px;padding-block:27px}section.content-section{padding-block:43px}.section-heading{display:block;margin-bottom:22px}h2{font-size:27px}.section-heading>p{margin-top:10px;max-width:none}.principles{grid-template-columns:1fr;gap:0}.principle{padding-block:20px}.number{margin-bottom:8px}.principle h3{margin-bottom:7px}.steps{gap:26px 20px}.step{padding-inline-start:14px}.step h3{font-size:22px}.step p{font-size:16px}.prompt{font-size:18px;margin-top:28px}.examples-grid{grid-template-columns:1fr;gap:26px}.examples-intro p{max-width:none}.reminder{grid-template-columns:1fr;gap:16px;padding:26px;margin-bottom:43px}.reminder h2{font-size:25px}.closing{padding:33px 20px}.closing p{font-size:22px}footer .wrap{align-items:start;gap:15px}footer p{max-width:225px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    @media print{header{position:static}nav,.skip,.inline-link,footer a{display:none}.wrap{width:100%}.intro,section.content-section{padding-block:20px}.anchor-card,.closing{background:#fff;color:#173c3a;border:1px solid #173c3a}.card-label,.card-foot,.closing small{color:#173c3a}.example-body{display:block!important}details{break-inside:avoid}.reminder{margin-bottom:20px}}
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#main">انتقل إلى المحتوى</a>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="مَلَكة النفس، بداية الصفحة"><span class="brand-mark" aria-hidden="true"></span>مَلَكة النفس</a>
+      <nav aria-label="أقسام الصفحة"><a href="#idea">الفكرة</a><a href="#principles">المبادئ</a><a href="#practice">التطبيق</a><a href="#examples">من يومك</a></nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">مساحة بين الشعور والتصرف</p>
+          <h1 id="page-title">مشاعرك مسموعة.<br><span>وقرارك لك.</span></h1>
+          <p class="lead">قد لا تختار الشعور الذي يأتيك، لكن يمكنك أن تتدرّب على اختيار ما تفعله بعده. هنا تبدأ مَلَكة النفس.</p>
+          <a class="inline-link" href="#practice">كيف أطبّق الفكرة؟ <span aria-hidden="true">↓</span></a>
+        </div>
+        <aside class="anchor-card" aria-label="الفكرة في عبارة">
+          <div class="card-label">تذكّرها وقت الاندفاع</div>
+          <blockquote>أستطيع أن أشعر بهذا…<br>دون أن أتصرّف على أساسه فورًا.</blockquote>
+          <p class="card-foot">أسمع شعوري، أفهم الموقف، ثم أختار.</p>
+        </aside>
+      </section>
+      <section class="meaning" id="idea" aria-labelledby="idea-title">
+        <div><p class="section-kicker">الفكرة ببساطة</p><h2 id="idea-title">ما مَلَكة النفس؟</h2></div>
+        <p>أن يكون لك دور واعٍ في استجابتك: تلاحظ ما تشعر به، وتفهمه، ثم تختار التصرف الذي ينسجم مع قيمك وما يهمك. <strong>المشاعر جزء من التجربة، وليست أمرًا ملزمًا بالتنفيذ.</strong> المقصود قيادة تصرفاتك، دون إنكار مشاعرك أو القسوة على نفسك.</p>
+      </section>
+      <section class="content-section" id="principles" aria-labelledby="principles-title">
+        <div class="section-heading"><div><p class="section-kicker">أساس الفكرة</p><h2 id="principles-title">ستة مبادئ ترجع لها</h2></div><p>اقرأها بهدوء، وابدأ بالمبدأ الذي تحتاجه اليوم.</p></div>
+        <div class="principles">
+          <article class="principle"><span class="number">٠١</span><h3>افصل الشعور عن التصرف</h3><p>الغضب شعور، والرد الجارح تصرف. الخوف شعور، والتراجع تصرف. وجود الشعور لا يجعل استجابة واحدة حتمية.</p></article>
+          <article class="principle"><span class="number">٠٢</span><h3>افهم مشاعرك دون كبتها</h3><p>قل: «أنا منزعج» بدل أن تنكر انزعاجك. اسأل عمّا تحتاجه أو عمّا يهمك في الموقف. يمكنك التعبير عن شعورك بوضوح واحترام.</p></article>
+          <article class="principle"><span class="number">٠٣</span><h3>الشعور معلومة، لا حكم نهائي</h3><p>قد تشعر بأنك غير قادر، وهذا وحده لا يحسم قدرتك. افصل ما حدث فعلًا عن تفسيرك له، وافحص ما يدعم هذا التفسير.</p></article>
+          <article class="principle"><span class="number">٠٤</span><h3>اترك مساحة للاختيار</h3><p>ليس كل إحساس بحاجة إلى تصرف عاجل. تمهّل قبل الرد أو القرار، وخذ من الوقت ما يسمح لك بفهم الموقف.</p></article>
+          <article class="principle"><span class="number">٠٥</span><h3>اختر ما يعبّر عن قيمك</h3><p>اسأل: ما التصرف الذي أراه مناسبًا حتى لو لم يكن الأسهل الآن؟ اجمع بين ما يهمك، وحدودك، وقدرتك الفعلية.</p></article>
+          <article class="principle"><span class="number">٠٦</span><h3>ابدأ دون انتظار المزاج المثالي</h3><p>يمكنك تجربة خطوة صغيرة ولو لم يأتِ الحماس. ثم راجع احتياجك: هل تواصل، أم تحتاج إلى راحة أو مساعدة أو تعديل الخطة؟</p></article>
+        </div>
+      </section>
+    </div>
+    <div class="practice-band">
+      <section class="wrap content-section" id="practice" aria-labelledby="practice-title">
+        <div class="section-heading"><div><p class="section-kicker">وقت الشعور القوي</p><h2 id="practice-title">وقفة صغيرة. واختيار أوضح.</h2></div><p>جرّب هذه الخطوات قبل أن يستعجل الاندفاع قرارك.</p></div>
+        <ol class="steps">
+          <li class="step"><span class="number">٠١</span><h3>توقّف</h3><p>اترك مهلة قبل الفعل. يمكنك تأجيل الرد أو الابتعاد قليلًا عن الموقف.</p></li>
+          <li class="step"><span class="number">٠٢</span><h3>سمِّ الشعور</h3><p>«أنا غاضب»، «أنا خائف»، «أنا مستعجل». صف ما يحدث دون لوم نفسك.</p></li>
+          <li class="step"><span class="number">٠٣</span><h3>اسأل</h3><p>ماذا حدث فعلًا؟ ما الذي أحتاجه؟ وما التصرف الذي يخدم ما يهمني؟</p></li>
+          <li class="step"><span class="number">٠٤</span><h3>اختر خطوة</h3><p>اختر فعلًا صغيرًا ومناسبًا، حتى لو بقي بعض الشعور حاضرًا.</p></li>
+        </ol>
+        <p class="prompt">سؤال يساعدك: <strong>لو أعطيت نفسي وقتًا، هل سأختار التصرف نفسه؟</strong></p>
+      </section>
+    </div>
+    <div class="wrap">
+      <section class="content-section examples-grid" id="examples" aria-labelledby="examples-title">
+        <div class="examples-intro"><p class="section-kicker">من يومك</p><h2 id="examples-title">الفكرة في مواقف عادية</h2><p>لا تحتاج موقفًا كبيرًا لتتدرّب. اختر مثالًا واقرأ الفرق بين الاندفاع والاستجابة التي يمكنك اختيارها.</p></div>
+        <div>
+          <details open><summary>وصلتني رسالة مستفزّة</summary><div class="example-body"><p><strong>الشعور والاندفاع:</strong> أنا غاضب، وأرغب في إرسال رد قاسٍ الآن.</p><p><strong>اختيار ممكن:</strong> أؤجّل الإرسال، وأحدّد ما أريد توضيحه. أعود برد يحفظ احترامي ويبيّن حدودي.</p></div></details>
+          <details><summary>لا أشعر برغبة في البدء</summary><div class="example-body"><p><strong>الشعور والاندفاع:</strong> أشعر بالثقل، وأرغب في تأجيل المهمة كلها.</p><p><strong>اختيار ممكن:</strong> أبدأ بخمس دقائق أو بأصغر جزء واضح، ثم أقيّم قدرتي واحتياجي إلى الراحة.</p></div></details>
+          <details><summary>أريد شراء شيء فورًا</summary><div class="example-body"><p><strong>الشعور والاندفاع:</strong> أنا متحمّس، ويبدو الشراء عاجلًا.</p><p><strong>اختيار ممكن:</strong> أعطي نفسي مهلة، وأراجع حاجتي وميزانيتي قبل أن أحسم القرار.</p></div></details>
+          <details><summary>أخشى أن أقول «لا»</summary><div class="example-body"><p><strong>الشعور والاندفاع:</strong> أشعر بالحرج، وأميل للموافقة رغم أن الطلب لا يناسبني.</p><p><strong>اختيار ممكن:</strong> أوضّح حدودي بلطف: «أقدّر طلبك، لكن لا أستطيع الالتزام به الآن». يمكن أن يبقى بعض الحرج دون أن يغيّر قراري.</p></div></details>
+        </div>
+      </section>
+      <section class="reminder" aria-labelledby="reminder-title">
+        <div><p class="section-kicker">وإذا اندفعت؟</p><h2 id="reminder-title">راجع نفسك برفق،<br>ثم جرّب مرة أخرى.</h2></div>
+        <p>لاحظ ما حدث، وأصلح ما تستطيع، وفكّر في خطوة تساعدك في المرة القادمة. مَلَكة النفس ممارسة تتدرّب عليها، وليست مطالبة بأن تكون هادئًا أو مثاليًا طوال الوقت.</p>
+      </section>
+    </div>
+    <section class="closing" aria-label="تذكير أخير"><p>أشعر بما أشعر… وأختار كيف أتصرّف.</p><small>وقفة، فهم، ثم اختيار.</small></section>
+  </main>
+  <footer><div class="wrap"><p>مَلَكة النفس · فكرة تتّسع للممارسة اليومية.</p><a href="#top">إلى البداية ↑</a></div></footer>
+</body>
+</html>
